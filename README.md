@@ -91,7 +91,6 @@ expressoes = ["Raiva", "Nojo", "Medo", "Feliz", "Triste", "Surpreso", "Neutro"]
 
 while (cv2.waitKey(1) < 0):
     conectado, frame = cap.read()
-    
     if not conectado:
         break  # se ocorreu um problema ao carregar a imagem então interrompe o programa
 
@@ -130,9 +129,11 @@ while (cv2.waitKey(1) < 0):
 
     cv2_imshow(frame) 
     saida_video.write(frame) # grava o frame atual
-
+    
 print("Terminou")
-saida_video.release() 
+
+saida_video.release()
+
 cv2.destroyAllWindows()
 
 
