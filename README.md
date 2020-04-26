@@ -1,5 +1,5 @@
-# Instruções
-# As linhas de codigo abaixo deverão ser executadas no Google Colab. Primeiro salve os arquivos no seu Google Drive. Depois, crie um diretório. Obs.: os "paths" deverão ser os mesmos criados e não os indicados nas linhas de código abaixo.
+# Instructions
+# The lines of code below must be executed in Google Colab. First save the files to your Google Drive. Then, create a directory. Obs .: the "paths" must be the same ones created and not those indicated in the lines of code below.
 
-Utilize Visão Computacional, Deep Learning e Redes Neurais Convolucionais para reconhecer emoção em imagens e vídeos.
-Neste projeto, foi utilizada uma Rede Neural Convolucional para detecção de emoções como por exemplo: feliz, nojo, medo, surpreso, triste, irado e neutro. O código consiste em, primeiramente, detectar faces e depois o reconhecimento da emoção propriamente dito.
+Use Computer Vision, Deep Learning and Convolutional Neural Networks to recognize emotion in images and videos.
+In this project, a Convolutional Neural Network was used to detect emotions such as: happy, disgust, fear, surprised, sad, angry and neutral. The code consists of first detecting faces and then recognizing the emotion itself.
